@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np 
 import plotly.express as px 
 import streamlit  as st 
-df = pd.read_csv(r"../fifa_eda.csv")
+df = pd.read_csv(r"fifa_eda.csv")
 df.dropna(inplace=True)
 st.title('Club')
 sum = df["Name"].count()
