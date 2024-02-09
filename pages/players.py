@@ -21,7 +21,5 @@ card3 = col_3.container(border = 1 )
 card.metric(label=f'max' , value=max_value)
 card2.metric(label=f'min' , value=min_value)
 card3.metric(label=f'mean' , value=mean_value)
-st.markdown(df["Name"].to_markdown(index= False))
-
 
 
